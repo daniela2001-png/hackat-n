@@ -1,0 +1,42 @@
+Este es mi conjunto de tests usando el modulo de python Doctest
+================================================================
+
+    Primero importo mis funciones desde mi modulo calculadora
+    >>> from calculadora import add, resta, multiply, divide
+
+    llamo a mi función add()
+    >>> add(2, 2)
+    4
+
+    llamo a mi función resta()
+    >>> resta(1, 1)
+    0
+
+    llamo a mi función multiply()
+    >>> multiply(4, 4)
+    16
+
+    llamo a mi función divide()
+    >>> divide(4, 2)
+    2.0
+
+    verifico si entra en el excepcion
+    >>> divide (4, 0)
+    No puedes dividir entre cero
+
+    testeo si el 1er argumento es un numero muy grande
+    >>> add(float("inf"), 2)
+    inf
+
+    testeo si el 1er argumento es un numero muy grande
+    >>> resta(2, float("-inf"))
+    inf
+
+    si no se le pasa ningun argumento a la función
+    >>> add()
+    Traceback (most recent call last):
+    TypeError: add() missing 2 required positional arguments: 'x' and 'y'
+
+    >>> multiply(2, None)    
+    Ingresa un entero
+
