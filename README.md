@@ -31,4 +31,4 @@
 
 ------------
 
-### Hecho por: <a href="https://github.com/daniela2001-png">Daniela Morales</a> 
+### By: <a href="https://github.com/daniela2001-png">Daniela Morales</a> 
